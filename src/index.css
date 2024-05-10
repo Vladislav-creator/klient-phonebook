@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:  url(./components/Images/robot-humanoid.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.active {
+  color: #e84a5f;
+  border: 2px solid #e84a5f;
+  border-radius: 10px;
+  
+}
+.disable-scroll {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+.p{
+  font-weight: 700;
+  color:#e84a5f;
+  font-size: 22px;
+}
