@@ -14,9 +14,12 @@ const sortedContacts =  visibleContacts.sort((a, b) => a.name.toLowerCase() > b.
   
   return (
     <ContactsList>
-      {sortedContacts.map(({ name, number, id}) => (
-        <ContactsListItem  key={id} id={id} name={name} number={number} />
-      ))}
+      {/* {sortedContacts.map(({ name, number, id}) => (
+        <ContactsListItem  key={id} id={id} name={name} number={number} /> */}
+          {sortedContacts.map(({ _id, name, number }) => (
+    <ContactsListItem key={_id} id={_id} name={name} number={number} />
+  ))} 
+      
     </ContactsList>
   );
 };

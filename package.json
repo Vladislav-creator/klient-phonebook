@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-08-phonebook",
+  "name": "klient-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vladislav-creato.github.io/goit-react-hw-08-phonebook/",
+  "homepage": "https://Vladislav-creato.github.io/klient-phonebook/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@reduxjs/toolkit": "^1.9.7",
