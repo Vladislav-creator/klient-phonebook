@@ -7,7 +7,8 @@ export const EditContactForm = () => {
   const contacts = useSelector(selectContactsList);
  
   const {name, number, id} = useSelector(selectEditContactData);
-
+  console.log("id",id);
+  console.log("name",name);
   const filteredContactsByName = contacts.filter(contact => contact.name !== name);
   const filteredContactsByNumber = contacts.filter(contact => contact.number !== number);
 
@@ -45,7 +46,7 @@ export const EditContactForm = () => {
   return (
     <form className={css.formstyle} onSubmit={handleSubmit} >
       <label className={css.inputname}  htmlFor={id} >
-        New Name
+        New Nam
       </label>
       <input
         type="text"
